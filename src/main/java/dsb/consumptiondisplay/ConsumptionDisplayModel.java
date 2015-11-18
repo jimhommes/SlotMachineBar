@@ -55,11 +55,9 @@ public class ConsumptionDisplayModel {
 
 	public void updateConsumer(int indexOfConsumer) {
 		Consumer consumer = consumers.get(indexOfConsumer);
-		Submarine sub = consumer.getSubmarine();
 		//double amountOfLiters = connector.getAmountOfLitersOfConsumer(consumer.getId());
 		double amountOfLitersLast30Minutes = connector.getAmountOfLitersOfConsumerLastXMininutes(consumer.getId(), 30);
-		
-		sub.setSnelheid(amountOfLitersLast30Minutes);
+
 		BestellingMetNaam Event = connector.getRecentOrderMetNaam(consumer.getId());
 		//BestellingMetNaam Event = new BestellingMetNaam("Spetter", 1000, 200, 5);
 		
@@ -69,9 +67,7 @@ public class ConsumptionDisplayModel {
 	}
 	
 	public void fastupdateConsumer(int indexOfConsumer) {
-		Consumer consumer = consumers.get(indexOfConsumer);
-		Submarine sub = consumer.getSubmarine();
-		sub.updateDistance();
+
 	}
 
 	public void orderByConsumption() {

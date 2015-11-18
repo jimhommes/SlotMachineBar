@@ -5,15 +5,15 @@ import javax.swing.*;
 public class DisplayRttN extends JFrame {
 	
 	static BoardRttN board;
-	int width = 800;
-	int height = 600;
+	int width = 1920;
+	int height = 1080;
 	
 	public DisplayRttN(ConsumptionDisplayModel model) {
 		//Creating a window
 		board = new BoardRttN(model);
 		add(board);									//adding the panel
 
-		setTitle("Nucleaire Troep Borrel Swag Jim is koel en Menno ook. Wij kunnen dingen.");			//Setting the title
+		setTitle("Slotmachine");			//Setting the title
 		setDefaultCloseOperation(EXIT_ON_CLOSE);	//Default close = exit
 		setSize(width, height);						//Set size
 		setLocationRelativeTo(null);				//start top left

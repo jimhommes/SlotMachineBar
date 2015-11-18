@@ -11,15 +11,11 @@ public class Consumer implements Comparable<Consumer> {
 	private Double amountConsumed;
 	private EventHandler eventHandeler;
 
-	public Consumer(String name, int id, double amountConsumed,ConsumptionDisplayModel model) {
+	public Consumer(String name, int id, double amountConsumed, ConsumptionDisplayModel model) {
 		this.name = name;
 		this.id = id;
 		this.amountConsumed = amountConsumed;
-		this.eventHandeler = new EventHandler(id, model, this.amountConsumed);
-	}
-	
-	public Submarine getSubmarine(){
-		return this.eventHandeler.getSubmarine();
+		this.eventHandeler = new EventHandler(id, model);
 	}
 	
 	public EventHandler getEventHandler(){
@@ -52,12 +48,7 @@ public class Consumer implements Comparable<Consumer> {
 
 	@Override
 	public String toString() {
-		Submarine submarine = this.getSubmarine();
-		if (amountConsumed < 1000)
-		{
-			return name + ": " + df.format(submarine.getDistance()) + " m";
-		}
-		else return name + ": " + df.format(submarine.getDistance()/1000) + " Km";
+		return name;
 	}
 
 	public int compareTo(Consumer o) {

@@ -16,8 +16,7 @@ public class BoardRttN extends JPanel {
 	
 	private ConsumptionDisplayModel model;
 	private boolean init = false;
-	private String path = "C:/Users/Jim/Desktop/SubJava/";
-	
+
 	public BoardRttN(ConsumptionDisplayModel m) {
 		model = m;
 	}
@@ -45,203 +44,15 @@ public class BoardRttN extends JPanel {
 			
 			
 			g2.setColor(Color.black);
-			
-			/*//Draw route
-			//PART1
-			//y = 0.1x^2 - 150 in 700 steps ( -700 till 0 )
-			for(double i = -70; i < 0; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (0.1 * i * i);
-				
-				g2.drawOval(x + 130, y + 50, 5, 5);
-			}
-			
-			//PART2
-			// y = 1
-			for(double i = 0; i < 200; i = i + 0.1) {
-				int x = (int) i;
-				int y = 0;
-				
-				g2.drawOval(x + 130, y + 50, 5, 5);
-			}
-			
-			//PART3
-			// y = (-6x)^0.5
-			for(double i = -200; i < 0; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) -(Math.pow(-6*x, 0.5));
-				
-				g2.drawOval(x + 530, y + 84, 5, 5);
-			}
-			
-			//PART4
-			// y = x
-			for(double i = 0; i < 150; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) i;
-				
-				g2.drawOval(x + 530, y + 84, 5, 5);
-			}
-			
-			//PART5
-			// y = -(-10x)^0.5
-			for(double i = 0; i > -200; i = i - 0.1) {
-				int x = (int) i;
-				int y = (int) Math.pow(-10*x, 0.5);
-				
-				g2.drawOval(x + 680, y + 234,5,5);
-			}
-			
-			//PART6
-			// y = -0.01x^2
-			
-			for(double i = -125; i < 0; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (-0.01 * i * i);
-				
-				g2.drawOval(x + 480, y + 278, 5, 5);
-			}
-			
-			//PART7
-			// y = 0
-			for(double i = -100; i < 0; i = i + 0.1) {
-				int x = (int) i;
-				int y = 0;
-				
-				g2.drawOval(x + 355, y + 120, 5, 5);
-			}
-			
-			//PART8
-			// y = 2x
-			for(double i = -100; i < 0; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) -2*x;
-				
-				g2.drawOval(x + 255,y + 120,5,5);
-			}
-			
-			//PART9
-			// y = 20x^0.5
-			for(double i = 0; i < 200; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (0.001 * Math.pow(i, 2));
-				
-				g2.drawOval(x + 155, y + 320, 5, 5);
-			}
-			
-			//PART10
-			// y = -20x^0.5
-			for(double i = 0; i < 200; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (-0.001 * Math.pow(i, 2));
-				
-				g2.drawOval(x + 155, y + 400, 5, 5);
-			}
-			
-			//PART11
-			// y = 5x
-			for(double i = 0; i < 120; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (.4*i);
-				
-				g2.drawOval(x + 155, y + 400, 5,5);
-			}
-			
-			//PART12
-			// y = 2.5x^0.5
-			for(double i = 100; i > 0; i = i - 0.1) {
-				int x = (int) i;
-				int y = (int) (-2.5 * Math.pow(i, 0.5));
-				
-				g2.drawOval(x + 175, y + 472, 5, 5);
-			}
-			
-			//PART13
-			// y = -2.5x^0.5
-			for(double i = 0; i < 400; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (2.5 * Math.pow(i, 0.5));
-				
-				g2.drawOval(x + 175, y + 472, 5, 5);
-			}
-			
-			//PART13
-			// y = 0
-			for(double i = 0; i < 100; i = i + 0.1) {
-				int x = (int) i;
-				int y = 0;
-				
-				g2.drawOval(x + 575, y + 521, 5, 5);
-			}
-			
-			//PART14
-			// y = 2x
-			for(double i = 200; i > 0; i = i - 0.1) {
-				int x = (int) i;
-				int y = (int) (i);
-				
-				g2.drawOval(x + 475, y + 321, 5, 5);
-			}
-			
-			//PART15
-			// y = 2.5x^0.5
-			for(double i = 0; i < 200; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (2.5*Math.pow(i, 0.5));
-				
-				g2.drawOval(x + 475, y + 321, 5, 5);
-			}
-			
-			//PART16
-			// y = -x^2
-			for(double i = 0; i < 75; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) -(0.05 * i * i);
-				
-				g2.drawOval(x + 675, y + 355, 5, 5);
-			}*/
-			
-			//////////////////////////shortcuts
-			
-			/*g2.setColor(Color.blue);
-			//Shortcut  Skip: part 4 and 5
-			// y = - 0.77x
-			for(double i = 0; i > -60; i = i - 0.1) {
-				int x = (int) i;
-				int y = (int) (-3.2 * i);
-				
-				g2.drawOval(x + 530, y + 84, 5, 5);
-			}
-			
-			//Shortcut  Skip: 9 en 10
-			// x = 0
-			for(double i = 0; i < 80; i = i + 0.1) {
-				int x = 0;
-				int y = (int) i;
-				
-				g2.drawOval(x + 155, y + 320, 5, 5);
-			}
-			
-			//Shortcut  Skip: 12 en 13
-			// y = 6.66x
-			for(double i = 0; i < 400; i = i + 0.1) {
-				int x = (int) i;
-				int y = (int) (0.19 * i);
-				
-				g2.drawOval(x + 273, y + 447, 5, 5);
-			}*/
-			
-			
-			
-			/////////////////////////Draw the background over the route
+
 			BufferedImage bg = null;
 			BufferedImage kader = null;
 			BufferedImage kader2 = null;
 			
 			try {
-				bg = ImageIO.read(new File(path+"Achtergrond-Nobel.png"));
-				kader = ImageIO.read(new File(path+"Achtergrond-NobelKader.png"));
-				kader2 = ImageIO.read(new File(path+"Achtergrond-NobelKader2.png"));
+				bg = ImageIO.read(new File("Achtergrond-Nobel.png"));
+				kader = ImageIO.read(new File("Achtergrond-NobelKader.png"));
+				kader2 = ImageIO.read(new File("Achtergrond-NobelKader2.png"));
 			}catch(IOException e){
 				System.out.println("PAUPERS!");
 			}
@@ -443,9 +254,9 @@ public class BoardRttN extends JPanel {
 			BufferedImage img = null;
 			try {
 				if(consumer.getSubmarine().getSubBroken())
-					img = ImageIO.read(new File(path+"duikbootbroken.png"));
+					img = ImageIO.read(new File("duikbootbroken.png"));
 				else
-					img = ImageIO.read(new File(path+"duikboot2.png"));
+					img = ImageIO.read(new File("duikboot2.png"));
 			}catch(IOException e){
 				System.out.println("PAUPERS!");
 			}
