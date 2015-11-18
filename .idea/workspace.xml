@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9409eda-1ad5-486a-a41f-b678a0c3070c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplaySQLConnector.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplaySQLConnector.java" />
     </list>
     <ignored path="SlotMachineBar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37598735">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
@@ -51,9 +53,35 @@
       <file leaf-file-name="ConsumptionDisplayModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-32.11111">
               <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumptionDisplayController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumptionDisplaySQLConnector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplaySQLConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3222749">
+              <caret line="88" column="115" selection-start-line="88" selection-start-column="115" selection-end-line="88" selection-end-column="115" />
+              <folding>
+                <marker date="1447844676941" expanded="true" signature="2831:3045" placeholder="SELECT * FRO..Bestelling..." />
+                <marker date="1447844676941" expanded="true" signature="4227:4460" placeholder="SELECT SUM(B..Bestelling..." />
+                <marker date="1447844676941" expanded="true" signature="4303:4420" placeholder="SELECT Bon_I..Bon..." />
+                <marker date="1447844676941" expanded="true" signature="5102:5403" placeholder="SELECT SUM(B..Bestelling..." />
+                <marker date="1447844676941" expanded="true" signature="5178:5363" placeholder="SELECT Bon_I..Bon..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+              <caret line="38" column="109" selection-start-line="38" selection-start-column="109" selection-end-line="38" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -81,7 +109,7 @@
       <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-54.555557">
+            <state vertical-scroll-proportion="-54.77778">
               <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
               <folding>
                 <element signature="e#171#190#0" expanded="true" />
@@ -108,9 +136,10 @@
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplaySQLConnector.java" />
       </list>
     </option>
   </component>
@@ -735,12 +764,12 @@
       <created>1447778319680</created>
       <option name="number" value="Default" />
       <updated>1447778319680</updated>
-      <workItem from="1447778325663" duration="4185000" />
+      <workItem from="1447778325663" duration="6481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4185000" />
+    <option name="totallyTimeSpent" value="6481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -800,22 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplaySQLConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -824,13 +837,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="109" selection-start-line="38" selection-start-column="109" selection-end-line="38" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-54.555557">
+        <state vertical-scroll-proportion="-54.77778">
           <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
           <folding>
             <element signature="e#171#190#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,35 +882,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-32.11111">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplaySQLConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37598735">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.3222749">
+          <caret line="88" column="115" selection-start-line="88" selection-start-column="115" selection-end-line="88" selection-end-column="115" />
+          <folding>
+            <marker date="1447844676941" expanded="true" signature="2831:3045" placeholder="SELECT * FRO..Bestelling..." />
+            <marker date="1447844676941" expanded="true" signature="4227:4460" placeholder="SELECT SUM(B..Bestelling..." />
+            <marker date="1447844676941" expanded="true" signature="4303:4420" placeholder="SELECT Bon_I..Bon..." />
+            <marker date="1447844676941" expanded="true" signature="5102:5403" placeholder="SELECT SUM(B..Bestelling..." />
+            <marker date="1447844676941" expanded="true" signature="5178:5363" placeholder="SELECT Bon_I..Bon..." />
+          </folding>
         </state>
       </provider>
     </entry>

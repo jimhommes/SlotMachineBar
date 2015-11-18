@@ -86,7 +86,7 @@ public class ConsumptionDisplaySQLConnector {
 	}
 	
 	public BestellingMetNaam getRecentOrderMetNaam(int consumerid){
-		String query = "SELECT * FROM Bestelling WHERE Bestelling_ID = (SELECT Bestelling_ID FROM Bestelling WHERE Bestelling_OpNaam IS NOT null AND Bestelling_Bon IN (SELECT Bon_ID FROM Bon WHERE Bon_Debiteur = '" + consumerid + "') ORDER BY Bestelling_Time DESC LIMIT 1)";
+		String query = "SELECT * FROM Bestelling WHERE Bestelling_ID = (SELECT Bestelling_ID FROM Bestelling WHERE Bestelling_Bon IN (SELECT Bon_ID FROM Bon WHERE Bon_Debiteur = '" + consumerid + "') ORDER BY Bestelling_Time DESC LIMIT 1)";
 		ResultSet resultset = null;
 		try {
 			Statement statement = (Statement) connection.createStatement();

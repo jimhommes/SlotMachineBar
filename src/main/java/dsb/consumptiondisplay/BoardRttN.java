@@ -35,6 +35,9 @@ public class BoardRttN extends JPanel {
 
 		try {
 			BufferedImage bg = ImageIO.read(new File("src/main/java/dsb/consumptiondisplay/FrontSlotMachine.png"));
+			BufferedImage fruit1 = ImageIO.read(new File("src/main/java/dsb/consumptiondisplay/fruit1.png"));
+			BufferedImage fruit3 = ImageIO.read(new File("src/main/java/dsb/consumptiondisplay/fruit3.png"));
+			g2.drawImage(fruit3, 1255, 0, null);
 			g2.drawImage(bg, 0, 0, null);
 		} catch (IOException e) {
 			System.out.println("geen plaatju gevonden");
