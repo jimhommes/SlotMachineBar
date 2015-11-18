@@ -7,12 +7,13 @@ import java.util.Comparator;
 public class ConsumptionDisplayModel {
 
 	private ConsumptionDisplaySQLConnector connector;
-
+	private DisplayRttN displayRttN;
 	public ArrayList<Consumer> consumers;
 
-	public ConsumptionDisplayModel(ConsumptionDisplaySQLConnector connector) {
+	public ConsumptionDisplayModel(ConsumptionDisplaySQLConnector connector, DisplayRttN displayRttN) {
 		consumers = new ArrayList<Consumer>();
-		this.connector = connector; 
+		this.connector = connector;
+		this.displayRttN = displayRttN;
 
 		consumers.add(new Consumer("Bestuur", 863, 874, this));
 		consumers.add(new Consumer("Dies 117", 260, 676,this));
@@ -73,5 +74,9 @@ public class ConsumptionDisplayModel {
 	public void orderByConsumption() {
 		Comparator<Consumer> comperator = Collections.reverseOrder();
 		Collections.sort(consumers, comperator);
+	}
+
+	public DisplayRttN getDisplayRttN() {
+		return displayRttN;
 	}
 }
