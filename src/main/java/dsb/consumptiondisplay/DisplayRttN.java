@@ -6,6 +6,7 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 
@@ -18,6 +19,10 @@ public class DisplayRttN extends JFrame {
 	AnimationTimer timer1;
 	AnimationTimer timer2;
 	AnimationTimer timer3;
+
+	ArrayList<Logo> logos1;
+	ArrayList<Logo> logos2;
+	ArrayList<Logo> logos3;
 	
 	public DisplayRttN(ConsumptionDisplayModel model) {
 		//Creating a window
@@ -46,8 +51,12 @@ public class DisplayRttN extends JFrame {
 	}
 
 	private void createLogos() {
+		logos1 = new ArrayList<>();
+		logos2 = new ArrayList<>();
+		logos3 = new ArrayList<>();
+
 		try {
-			board.addLogo(new Logo(ImageIO.read(new File("src/main/java/dsb/consumptiondisplay/fruit1.png")), 1256, 0, this));
+			logos1.add(new Logo(ImageIO.read(new File("src/main/java/dsb/consumptiondisplay/fruit1.png")), 1256, 0, this));
 			//TODO: Add all logos
 			//TODO: Change BoardRttN to observer instead of DisplayRttN
 			//TODO: 3 different arrays here for Logos, then AnimationTimers for reeling

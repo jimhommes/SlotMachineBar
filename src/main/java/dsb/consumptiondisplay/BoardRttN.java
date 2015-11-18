@@ -19,16 +19,17 @@ public class BoardRttN extends JPanel implements Observer {
 	
 	private ConsumptionDisplayModel model;
 	private boolean init = false;
-	private ArrayList<Logo> logos;
+	ArrayList<Logo> logos = new ArrayList<>();
+
+	Graphics2D g2;
 
 	public BoardRttN(ConsumptionDisplayModel m) {
 		model = m;
-		logos = new ArrayList<Logo>();
 	}
 	
 	public void paint(Graphics g) {
 		
-		Graphics2D g2 = (Graphics2D) g;
+		g2 = (Graphics2D) g;
 		
 		//Rendering hints (make it smooth) 
 		RenderingHints rh = new RenderingHints(
@@ -45,22 +46,14 @@ public class BoardRttN extends JPanel implements Observer {
 		} catch (IOException e) {
 			System.out.println("geen plaatju gevonden");
 		}
-
-
-		g2.dispose();
-		g.dispose();
 		
 	}
 
-	public boolean containsLogo(Logo logo) {
-		return logos.contains(logo);
-	}
-
-	public void addLogo(Logo logo) {
-		logos.add(logo);
-	}
-
 	public void update(Observable o, Object arg) {
+		Logo logo = (Logo) o;
+		if(!logos.contains(logo)) {
+			logos.add(logo);
+		}
 		repaint();
 	}
 

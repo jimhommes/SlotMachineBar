@@ -23,6 +23,8 @@ public class Logo extends Observable {
         this.x = x;
         this.y = y;
         addObserver(displayRttN.getBoard());
+        setChanged();
+        notifyObservers();
     }
 
     public void move() {
@@ -31,6 +33,7 @@ public class Logo extends Observable {
         } else {
             x -= 10;
         }
+        setChanged();
         notifyObservers();
     }
 
