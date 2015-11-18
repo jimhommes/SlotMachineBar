@@ -40,7 +40,9 @@ public class EventHandler {
 	private void HandleNewEvent(BestellingMetNaam Event){
 		eventList.add(Event);
 		System.out.println(this.eventHanderID + "\t" + Event.getmetNaam() + "\t@index "  + eventList.size() + "\t\t");
-		
+
+		model.getDisplayRttN().roll();
+
 		String happening = Event.getmetNaam().toUpperCase().replaceAll("\\s","");
 
 		if (happening.equals("OCTO") || happening.equals("OCTOPUS") || happening.equals("HICOCTOPUS")) {

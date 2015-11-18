@@ -1,5 +1,7 @@
 package dsb.consumptiondisplay;
 
+import javafx.animation.AnimationTimer;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.io.File;
@@ -7,11 +9,15 @@ import java.io.IOException;
 import java.util.Observable;
 import java.util.Observer;
 
-public class DisplayRttN extends JFrame implements Observer {
+public class DisplayRttN extends JFrame {
 	
 	static BoardRttN board;
 	int width = 1920;
 	int height = 1080;
+
+	AnimationTimer timer1;
+	AnimationTimer timer2;
+	AnimationTimer timer3;
 	
 	public DisplayRttN(ConsumptionDisplayModel model) {
 		//Creating a window
@@ -26,7 +32,17 @@ public class DisplayRttN extends JFrame implements Observer {
 		setVisible(true);							//Make it visible
 		setResizable(true);						//Not resizable
 
+		createTimers();
 		createLogos();
+	}
+
+	private void createTimers() {
+		timer1 = new AnimationTimer() {
+			@Override
+			public void handle(long t) {
+
+			}
+		};
 	}
 
 	private void createLogos() {
@@ -46,7 +62,11 @@ public class DisplayRttN extends JFrame implements Observer {
 		board.repaint();
 	}
 
-	public void update(Observable o, Object arg) {
-		board.repaint();
+	public void roll() {
+
+	}
+
+	public BoardRttN getBoard() {
+		return board;
 	}
 }

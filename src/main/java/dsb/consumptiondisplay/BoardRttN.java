@@ -9,11 +9,13 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Observable;
+import java.util.Observer;
 
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
-public class BoardRttN extends JPanel {
+public class BoardRttN extends JPanel implements Observer {
 	
 	private ConsumptionDisplayModel model;
 	private boolean init = false;
@@ -56,6 +58,10 @@ public class BoardRttN extends JPanel {
 
 	public void addLogo(Logo logo) {
 		logos.add(logo);
+	}
+
+	public void update(Observable o, Object arg) {
+		repaint();
 	}
 
 }

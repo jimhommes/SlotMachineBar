@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9409eda-1ad5-486a-a41f-b678a0c3070c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SubJava.iml" afterPath="$PROJECT_DIR$/SubJava.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/1a4eaeceb08234f86c42d627cfdf86fd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/684398949_540.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/7Gold16x202.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/FreeVector-Golden-Frame.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/dark-gold-frame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/golden-3d-column-18652490.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/golden-frame-1920018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/slot_machine_fruit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_10_groepsLogo_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_12_groepsLogo_medium.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_13_groepsLogo_medium.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_15_groepsLogo_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_17_groepsLogo_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_18_groepsLogo_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_20_groepsLogo_medium.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_22_groepsLogo_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_23_groepsLogo_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_2_groepsLogo_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/thumb_6_groepsLogo_medium.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java" afterPath="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java" />
     </list>
     <ignored path="SlotMachineBar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +47,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24170616">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
               <folding />
             </state>
@@ -47,8 +60,8 @@
       <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4074073">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state vertical-scroll-proportion="-15.740741">
+              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -116,16 +129,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisplayRttN.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DisplayRttN.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.8657188">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
-                <element signature="e#1276#1277#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,9 +149,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,12 +198,12 @@
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Submarine.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplaySQLConnector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java" />
       </list>
     </option>
   </component>
@@ -812,12 +831,12 @@
       <created>1447778319680</created>
       <option name="number" value="Default" />
       <updated>1447778319680</updated>
-      <workItem from="1447778325663" duration="10595000" />
+      <workItem from="1447778325663" duration="11201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10595000" />
+    <option name="totallyTimeSpent" value="11201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -928,34 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4074073">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/ConsumptionDisplayModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.037037">
@@ -967,24 +958,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.740741">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Logo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/BoardRttN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24170616">
-          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding>
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsb/consumptiondisplay/DisplayRttN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8657188">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

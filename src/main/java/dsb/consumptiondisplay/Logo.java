@@ -22,7 +22,7 @@ public class Logo extends Observable {
         this.image = image;
         this.x = x;
         this.y = y;
-        addObserver(displayRttN);
+        addObserver(displayRttN.getBoard());
     }
 
     public void move() {
